@@ -12,7 +12,7 @@ ENTRYPOINT ["/con/context/start-inbucket.sh"]
 CMD ["/con/configuration/inbucket.conf"]
 
 # Ports: SMTP, HTTP, POP3
-EXPOSE 10025 10080 10110
+EXPOSE 2500 9000 1110
 
 # Persistent Volumes, following convention at:
 #   https://github.com/docker/docker/issues/9277
